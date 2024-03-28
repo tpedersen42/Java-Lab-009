@@ -16,7 +16,7 @@
     * Is the **blank** object mutable or immutable? How can you tell?
 
 ```text
-PUT ANSWER TO #2 HERE
+blank is mutable
 ```
 
 ```java
@@ -47,7 +47,8 @@ public class Puzzler {
     * Explain how the return values from #3 and #4 differ.
 
 ```text
-PUT ANSWER TO #5 HERE
+findCenter returns a 'Point' object that represents the center of the provided 'Rectangle' object. It also calcualtes the center coordinates and returns a new 'Point' object.
+distance method returns a 'double' that represents the distance between two 'Point' objects. Calculates distance and returns distance as a 'double' value. 
 ```
 
 ```java
@@ -87,14 +88,15 @@ Recall that aliases are two variables that refer to the same object.
     * Put the output in the text block below
 
 ```text
-PUT ANSWER TO #2 HERE
+(5, 8)
+(6, 9)
 ```
 
 3. At the end of main, are p1 and p2 aliased? Why or why not?
     * Put your answer in the text block below
 
 ```text
-PUT ANSWER TO #3 HERE
+even though p1 and p2 both represent points at the center of rectangles, they refer to different Point objects in memory so there is no aliasing between p1 and p2. 
 ```
 
 ```java
@@ -142,6 +144,7 @@ for (int i = 0; i < s.length(); i++) {
     * Screenshot your output and add it to your project as Part3_2.jpg
 3. Generalize the code so that it works on any string.
     * What could you do to generalize it more?
+    * I could incorporate other types of brackets or delimiters besides parentheses
 
 ## Part 4: Large Numbers
 
